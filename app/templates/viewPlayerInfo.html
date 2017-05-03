@@ -1,18 +1,59 @@
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <table>
-              {% for player in players %}
-              <tr>
-                <!-- <td><img src={{player.path}} height="400" width="400"></td> -->
-                <td>{{player.name}}</td>
-                <td>{{player.jersey}}</td>
-                <td>{{player.height}}</td>
-                <td>{{player.weight}}</td>
-                <td>{{player.position}}</td>
-              </tr>
-              {% endfor %}
-            </table>
-          </div>
-        </div>
-      </div>
+<head>
+<style type="text/css">
+body{
+
+  font-family: "Cooper Black";
+  font-size: 18px;
+  font-style: bold;
+  color: white;
+      
+    }
+
+table{
+
+  border: 1px solid lightblue;
+}
+
+th{
+  padding: 17px;
+  text-align: center;
+  height: 50px;
+  vertical-align: center;
+  color: lightblue;
+}
+
+td{
+  padding: 15px;
+  text-align: center;
+  height: 50px;
+  vertical-align: center;
+}
+
+</style>
+</head>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <table>
+      <tr>
+      <th>Name</th>
+      <th>Jersey Number</th>
+      <th>Height</th>
+      <th>Weight</th>
+      <th>Position</th>
+      </tr>
+        {% for player in players %}
+        <tr>
+          <!-- <td><img src={{player.path}} height="400" width="400"></td> -->
+          <td>{{player.name}}</td>
+          <td>{{player.jersey}}</td>
+          <td>{{player.height}}</td>
+          <td>{{player.weight}}</td>
+          <td>{{player.position}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>

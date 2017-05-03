@@ -5,6 +5,14 @@
 	color: black;
 }
 
+#rcorners {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+}
+
 #title{
 
 	font-family: "Cooper Black";
@@ -48,29 +56,13 @@
 
 	text-align: center;
 
-	background-color: #4db6ac;
+	background-color: lightblue;
 
 	padding-top: 30px;
 
 	padding-bottom:  30px;
 
 	height: 784px;
-
-}
-
-/* Notifications */
-
-#content .notifications {
-
-	font-family: 'Montserrat', sans-serif;
-
-	color: rgba(146,146,146,1.00);
-
-	width: 700px;
-
-	height: 500px;
-
-	text-align: left;
 
 }
 
@@ -136,6 +128,8 @@
 
 	font-size: 14px;
 
+	color: white;
+
 }
 
 /*Links under menus in sidebar */
@@ -143,6 +137,7 @@
 #menubar .menu ul li a {
 
 	font-size: 14px;
+	color: white;
 
 }
 
@@ -205,6 +200,8 @@
 
 	overflow: hidden;
 
+	color: white;
+
 }
 
 /*menu headings in sidebar */
@@ -215,6 +212,8 @@
 
 	font-size: medium;
 
+	color: white;
+
 	padding-right: 6%;
 
 }
@@ -224,6 +223,7 @@
 #menubar .menu ul {
 
 	display: inline;
+	color: white;
 
 }
 
@@ -238,6 +238,8 @@
 	padding-left: 0%;
 
 	padding-right: 3%;
+
+	color: white;
 
 }
 
@@ -261,6 +263,8 @@
 
 	top: 16px;
 
+	color: white;
+
 }
 
 /*menubar in sidebar */
@@ -276,6 +280,8 @@
 	width: 95%;
 
 	padding-top: 0px;
+
+	color: white;
 
 }
 

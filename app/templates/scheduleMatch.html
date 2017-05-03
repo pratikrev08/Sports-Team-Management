@@ -1,15 +1,33 @@
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <form action="/scheduleMatch" method="post">
-            <input type="date" name="date" value="{{request.form.date }}">
-            <br>
-            <input type="time" name="time" value="{{request.form.time }}">
-            <br>
-            <input type="text" name="opponent" placeholder="Opposite Team" value="{{request.form.opponent }}">
-            <br>
-            <input type="submit" name="submit" value="Submit">
-          </form>
-        </div>
-      </div>
+<head>
+  <style type="text/css">
+      
+  body{
+
+    font-family: "Cooper Black";
+    font-size: 18px;
+    font-style: bold;
+    color: lightblue;
+  }
+
+  input{
+    font-family: "Cooper Black";
+    background: black;
+  }
+
+  </style>
+</head>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <form action="/scheduleMatch" method="post">
+        Date: <input type="date" name="date" value="{{request.form.date }}">
+        <br><br>
+        Time: <input type="time" name="time" value="{{request.form.time }}">
+        <br><br>
+        Opponent: <input type="text" name="opponent" placeholder="Opposite Team" value="{{request.form.opponent }}">
+        <br><br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
     </div>
+  </div>
+</div>
